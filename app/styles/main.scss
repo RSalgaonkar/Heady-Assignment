@@ -43,7 +43,7 @@ body {
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 100%;
+    width: 100%;
   }
 }
 
@@ -147,7 +147,14 @@ body {
   .navbar-default {
     background-color: #fff;
     border-color: #fff;
-  }  
+  }
+  .navbar-brand {
+    padding: 15px 6px;
+  }
+  .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 .navbar-nav a {
