@@ -176,6 +176,12 @@ body {
       font-size: 11px;
     }
   }
+  #description {
+    .over-text {
+      width: initial;
+      position: initial;
+    }
+  }
 }
 
 .affix {
@@ -312,4 +318,19 @@ body {
   font-size: 10px;
   line-height: 20px;
   font-weight: 700;
+}
+
+.over-text {
+  width: 370px;
+  z-index: 10000;
+  position: relative;
+  background-color: #eee;
+  padding: 10px 10px 10px 0px;
+  top: -20px;
+}
+
+#description {
+  p {
+    padding-right: 18px;
+  }
 }
