@@ -166,6 +166,16 @@ body {
     float:left;
     margin-left: 12px;
   }
+  .div-hg {
+    .side-menu {
+      display: inline-flex;
+      position: relative;
+      top: -48px;
+      line-height: 0;
+      margin-left: -26px;
+      font-size: 11px;
+    }
+  }
 }
 
 .affix {
@@ -242,7 +252,8 @@ body {
 }
 
 #details {
-  background-color: white;    
+  background-color: white;
+  padding: 25px 0;
 }
 
 .circlular {
@@ -261,6 +272,11 @@ body {
 .colors {
   display: flex;
   margin-left: -16px;
+}
+
+.side-menu {
+  line-height: 4;
+  font-weight: 700;
 }
 
 .white {
