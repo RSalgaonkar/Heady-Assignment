@@ -12,8 +12,6 @@ $icon-font-path: '../fonts/';
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -26,8 +24,6 @@ body {
 
 /* Custom page header */
 .header {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5;
 }
 
 /* Make the masthead heading the same height as the navigation */
@@ -47,9 +43,45 @@ body {
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 100%;
   }
 }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.main-bg {
+  .container, {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.mob-div {
+  list-style: none;
+  display: inline-flex;
+  float: right;
+  position: absolute;
+  right: 5px;
+  top: 14px;
+  li {
+    padding: 0 10px;
+  }
+}
+
 .container-narrow > hr {
   margin: 30px 0;
 }
@@ -88,5 +120,43 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+}
+
+      
+.main-bg {
+  background-color: #eeeeee;
+}
+
+.header-icon {
+  padding-top: 10px;
+  display: inline-flex;
+  li {
+    position: relative;
+    display: block;
+    a {
+      position: relative;
+      display: block;
+      padding: 5px 15px;
+      color: #000;
+    }
+  }
+}
+
+.header {
+  .navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+  }  
+}
+
+.navbar-nav a {
+  color: #000;
+}
+
+@media (max-width: 767px) {
+  .navbar-toggle {
+    float:left;
+    margin-left: 12px;
   }
 }
