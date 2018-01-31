@@ -16,9 +16,9 @@ $('.description-img').hide().slideDown(2000);
 $('.second-descp').hide().slideDown(2000);
 
 $('.over-text').animate({ 
-    top: 100,
-    left: 100,
+  top: 100,
+  left: 100,
 }).animate({
-    top: 0,
-    left: 0,
+  top: 0,
+  left: 0,
 })
