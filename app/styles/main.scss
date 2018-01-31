@@ -170,9 +170,7 @@ body {
     .side-menu {
       display: inline-flex;
       position: relative;
-      top: -48px;
       line-height: 0;
-      margin-left: -26px;
       font-size: 11px;
     }
   }
@@ -199,7 +197,30 @@ body {
         }
       }
     }
+    .affix {
+      position: initial;
+      .div-hg {
+        height: initial;
+      }
+    }
   }
+
+  .panel {
+    .panel-footer {
+      ul.footer-list {
+        display: initial;
+        li {
+          text-align: center;
+          padding-right: 0;
+          padding-bottom: 12px;
+        }
+      }
+      .social-icon {
+        float: initial;
+      }
+    }
+  }
+
 }
 
 .affix {
@@ -404,4 +425,25 @@ body {
     width: 100%;
     display: block;
   }
+}
+
+.panel-footer {
+  .row, .col-md-12, .col-xs-12 {
+    background-color: yellow;
+  }
+  background-color: yellow;
+  .h2 {
+    text-decoration: underline;
+  }
+  .footer-list {
+    display: inline-flex;
+    list-style: none;
+    li {
+      padding-right: 12px;
+    }
+  }
+}
+
+.social-icon {
+  float: right;
 }
