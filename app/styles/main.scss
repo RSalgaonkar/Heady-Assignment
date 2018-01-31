@@ -179,6 +179,15 @@ body {
     }
   }
 
+  .desc {
+    background: #fff;
+    margin-right: 10px;
+  }
+
+  #details{
+    margin-right: 12px;
+  }
+
   #description {
     padding-top: 70px;
     .second-descp, .third-descp {
@@ -188,6 +197,7 @@ body {
 
   #description, .second-descp {
     .over-text {
+      background: #fff;
       width: initial;
       position: initial;
     }
@@ -224,7 +234,11 @@ body {
       }
     }
   }
-
+  
+  .image-over {
+    top: 12em;
+    left: -1em;
+  }
 }
 
 .affix {
@@ -232,6 +246,10 @@ body {
 }
 
 .content-section {
+  .img-responsive {
+    width: 100%;
+  }
+  
   .panel {
     border: none;
     background-color: #eeee;
@@ -422,6 +440,7 @@ body {
 }
 
 #related {
+  margin-top: 70px;
   h5 {
     font-weight: 700;
   }
@@ -451,4 +470,12 @@ body {
 
 .social-icon {
   float: right;
+}
+
+.image-over {
+  height: 250px;
+  width: 250px;
+  position: relative;
+  top: 18em;
+  left: -20em;
 }
