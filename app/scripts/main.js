@@ -11,8 +11,9 @@ $('.select-id').mouseover(function() {
   $('#selected-section').html(this.id);
 });
 
-$('#details-img').hide().fadeIn(2000);
-
+$('#details-img').hide().slideDown(2000);
+$(".description-img").hide().slideDown(2000);
+$('.second-descp').hide().slideDown(2000);
 
 // $('.over-text').animate({ 
 //     top: 100,
@@ -31,5 +32,4 @@ $('#details-img').hide().fadeIn(2000);
 // $(".description-img").fadeIn()
 // 	.css({top:1000,position:'absolute'})
 // 	.animate({top: 0}, 800, function() {
-    
 // });
