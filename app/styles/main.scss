@@ -186,8 +186,15 @@ body {
       width: initial;
       position: initial;
     }
-    .pdf-section {
-      bottom: initial;
+  }
+
+  .panel-body {
+    #description {
+      .third-descp {
+        .pdf-section {
+          position: initial;
+        }
+      }
     }
   }
 }
@@ -338,16 +345,28 @@ body {
 }
 
 #description {
+  margin-top: 70px;
   p {
     padding-right: 18px;
   }
-  .second-descp .row {
+  .second-descp .row, third-descp .row {
     margin-left: 0;
     margin-right: 0;
   }
+  .third-descp{
+    .pdf-section {
+      height: 90px;
+      line-height: 90px;
+      text-align: center;
+      background-color: yellow;
+      position: relative;
+      left: 66%;
+      top: 83%;
+    }
+  }
 }
 
-.second-descp {
+.second-descp, .third-descp {
   margin-top: 70px;
   background: url(../images/details.png) no-repeat center;
   background-size: cover;
@@ -359,16 +378,16 @@ body {
   }
 }
 
-.pdf-section {
-  height: 90px;
-  line-height: 90px;
-  text-align: center;
-  background-color: yellow;
-  position: absolute;
-  right: 43px;
-  bottom: 82px;
-}
-
 #reviews {
   margin-top: 70px;
+  .media {
+    padding-top: 20px;
+  }
+  .ratings {
+    margin-top: -10px;
+  }
+}
+
+.comment {
+  padding-right: 35px;
 }
