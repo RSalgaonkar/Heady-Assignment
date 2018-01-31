@@ -176,10 +176,18 @@ body {
       font-size: 11px;
     }
   }
+
+  #description {
+    padding-top: 70px;
+  }
+
   #description, .second-descp {
     .over-text {
       width: initial;
       position: initial;
+    }
+    .pdf-section {
+      bottom: initial;
     }
   }
 }
@@ -349,4 +357,18 @@ body {
   .over-text {
     top: -20px;
   }
+}
+
+.pdf-section {
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  background-color: yellow;
+  position: absolute;
+  right: 43px;
+  bottom: 82px;
+}
+
+#reviews {
+  margin-top: 70px;
 }
