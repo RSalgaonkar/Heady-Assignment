@@ -184,10 +184,6 @@ body {
     margin-right: 10px;
   }
 
-  #details{
-    margin-right: 12px;
-  }
-
   #description {
     .second-descp, .third-descp {
       margin-left: -15px;
@@ -326,6 +322,7 @@ body {
 #details {
   background-color: white;
   padding: 25px 0;
+  margin-right: 0;
 }
 
 .circlular {
