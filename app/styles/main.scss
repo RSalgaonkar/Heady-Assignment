@@ -179,6 +179,9 @@ body {
 
   #description {
     padding-top: 70px;
+    .second-descp, .third-descp {
+      margin-right: 0;
+    }
   }
 
   #description, .second-descp {
@@ -349,7 +352,7 @@ body {
   p {
     padding-right: 18px;
   }
-  .second-descp .row, third-descp .row {
+  .second-descp .row, .third-descp .row {
     margin-left: 0;
     margin-right: 0;
   }
@@ -390,4 +393,15 @@ body {
 
 .comment {
   padding-right: 35px;
+}
+
+#related {
+  h5 {
+    font-weight: 700;
+  }
+  .related-img {
+    height: 130px;
+    width: 100%;
+    display: block;
+  }
 }
