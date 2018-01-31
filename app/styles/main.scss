@@ -419,9 +419,8 @@ body {
   background: url(../images/details.png) no-repeat center;
   background-size: cover;
   margin-left: 1px;
-  margin-right: 28px;
+  margin-right: 0;
   height: 540px;
-  transition: all 0.7s linear;
   .over-text {
     top: -20px;
   }
@@ -486,5 +485,35 @@ body {
 }
 
 #pdfSection {
-  transition: all 5s ease-in-out;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+}
+
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+#third-descp {
+  -webkit-animation: slide 2s forwards;
+  -webkit-animation-delay: 5s;
+  animation: slide 2s forwards;
+  animation-delay: 5s;  
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
 }
