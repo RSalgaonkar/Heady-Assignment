@@ -162,6 +162,10 @@ body {
 }
 
 @media (max-width: 767px) {
+  .content-section {
+    margin-left: 15px;
+  }
+
   .navbar-toggle {
     float:left;
     margin-left: 12px;
@@ -241,20 +245,18 @@ body {
   }
 }
 
-.selected-section {
-  transform: rotate(-90deg);
-  font-size: 40px;
-}
-
 .div-hg {
   height: 300px;
 }
 
 .selected-section {
+  transform: rotate(-90deg);
   width: 300px;
   top: 115px;
   position: relative;
   text-align: center;
+  color: #fff;
+  font-size: 58px
 }
 
 .slashed {
@@ -409,6 +411,9 @@ body {
   }
   .ratings {
     margin-top: -10px;
+  }
+  h4 {
+    padding-top: 10px;
   }
 }
 
