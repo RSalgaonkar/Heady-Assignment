@@ -189,10 +189,14 @@ body {
   }
 
   #description {
-    padding-top: 70px;
     .second-descp, .third-descp {
+      margin-left: -15px;
       margin-right: 0;
     }
+  }
+
+  #reviews, #related {
+    margin-left: -15px;
   }
 
   #description, .second-descp {
@@ -213,6 +217,7 @@ body {
     }
     .affix {
       position: initial;
+      margin-left: -29px;
       .div-hg {
         height: initial;
       }
@@ -220,7 +225,9 @@ body {
   }
 
   .panel {
+    background-color: #eeeeee;
     .panel-footer {
+      margin-right: 15px;
       ul.footer-list {
         display: initial;
         li {
@@ -417,6 +424,7 @@ body {
   margin-left: 1px;
   margin-right: 28px;
   height: 540px;
+  transition: all 0.7s linear;
   .over-text {
     top: -20px;
   }
