@@ -162,6 +162,13 @@ body {
 }
 
 @media (max-width: 767px) {
+  .side-menu {
+    margin-left: 15px;
+    .list-group-item {
+      padding: 6px 6px;
+    }
+  }
+
   .content-section {
     margin-left: 15px;
   }
@@ -484,6 +491,11 @@ body {
   left: -20em;
 }
 
+.footer-header {
+  font-size: 22px;
+  text-decoration: underline;
+}
+
 #pdfSection {
   opacity: 1;
   animation-name: fadeInOpacity;
@@ -491,7 +503,6 @@ body {
   animation-timing-function: ease-in;
   animation-duration: 5s;
 }
-
 
 @keyframes fadeInOpacity {
   0% {
@@ -502,18 +513,18 @@ body {
   }
 }
 
-
-#third-descp {
-  -webkit-animation: slide 2s forwards;
-  -webkit-animation-delay: 5s;
-  animation: slide 2s forwards;
-  animation-delay: 5s;  
+#third-descp, #pdfSection {
+  position: relative;
+  -webkit-animation: moveToLeft 1s linear;
+  animation: moveToLeft 1s linear;
 }
 
-@-webkit-keyframes slide {
-    100% { left: 0; }
+@-webkit-keyframes moveToLeft {
+  from {left: 100%;}
+  to {left: 0%;}
 }
 
-@keyframes slide {
-    100% { left: 0; }
+@keyframes moveToLeft {
+  from {left: 100%;}
+  to {left: 0%;}
 }
